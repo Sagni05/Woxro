@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.App {
+  min-height: 100%;
+  max-width: var(1180px);
+  position: relative;
+  margin: auto;
+  background-color: black;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+a {
+  cursor: pointer;
+   color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  display: block;
+}
+
+
+div {
+  display: block;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+h1 {
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
